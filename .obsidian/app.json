@@ -1,0 +1,14 @@
+{
+  "promptDelete": false,
+  "vimMode": true,
+  "showInlineTitle": true,
+  "attachmentFolderPath": "Anexos",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

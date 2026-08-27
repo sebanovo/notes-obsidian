@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "85cac97dac0b2126",
+    "type": "split",
+    "children": [
+      {
+        "id": "58e24bc0d1eb3d81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4d97086af1e3d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SW 2-2026/1er Examen (Diagramador UML).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1er Examen (Diagramador UML)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "253a1fbf7daa2489",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d7c174bfaaf7632",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f87d9477bd8e7008",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "f7dfaa24ae30044c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "0867a4eafd53921b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "right": {
+    "id": "554fd62f14428ec5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f50892f52a73ebb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e56ea7a948591081",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sin título.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Sin título"
+            }
+          },
+          {
+            "id": "1d9452ede8fa3d90",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sin título.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Sin título"
+            }
+          },
+          {
+            "id": "8523cd9a48af3692",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "02810297a3b18809",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "e1636dd4510f1204",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sin título.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Sin título"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "e4d97086af1e3d35",
+  "lastOpenFiles": [
+    "Anexos/Pasted image 20260825214004.png",
+    "Anexos/Pasted image 20260825213409.png",
+    "Anexos/Pasted image 20260825213340.png",
+    "Anexos/Pasted image 20260825212311.png",
+    "Anexos/Pasted image 20260825212228.png",
+    "Anexos/Pasted image 20260825212218.png",
+    "Anexos/Pasted image 20260825211819.png",
+    "Anexos/Pasted image 20260825211421.png",
+    "Anexos/Pasted image 20260825210347.png",
+    "IHC/appmap-v1.0.md.md",
+    "SW 2-2026/1er Examen (Diagramador UML).md",
+    "SW 2-2026",
+    "IHC/IHC.md",
+    "IHC/flujo-v1.0.md.md",
+    "SI2 1-2026/7 Funcionalidades para todos los proyectos.md",
+    "IHC",
+    "SI2 1-2026/Sistema de Finanzas.md",
+    "SI2 1-2026/Apuntes 9 Softwares.md",
+    "SI2 1-2026/Examen I,II Auxilio Mecánico.md",
+    "SI2 1-2026/Perfil Del Proyecto.md",
+    "SI2 1-2026/Sprint Especial.md",
+    "semestre 2-2025/Segundo Parcial.md",
+    "semestre 1-2026 SI2/Documentación adicionar examen 1.md",
+    "semestre 1-2026 SI2/BASE DE DATOS FINANZAS EXPLICACIÓN.md",
+    "semestre 1-2026 SI2/2026-03-16.md",
+    "descripcion-del-problema.md",
+    "indice-o-tabla-de-contenido.md",
+    "Sin título.canvas",
+    "semestre 2-2025",
+    "2026-05-13.md",
+    "Anexos/Pasted image 20260509173107.png",
+    "2026-04-04.md",
+    "[[.md",
+    "Bienvenido.md",
+    "cree un enlace.md",
+    "Sin título.base",
+    "2026-03-15.md",
+    "Anexos/mark.jpg",
+    "Anexos",
+    "key-ssh-colegio-saas/sebastian-ssh.pem",
+    "key-ssh-colegio-saas",
+    "SI2 1-2026",
+    "Sin título 1.canvas",
+    "Sin título 3.md",
+    "Sin título 5.md",
+    "Sin título 1.md"
+  ]
+}
