@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "1er Examen (Diagramador UML)"
             }
+          },
+          {
+            "id": "8712fe96910efc10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SW 2-2026/archivo temporal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "archivo temporal"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,11 +197,15 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4d97086af1e3d35",
+  "active": "8712fe96910efc10",
   "lastOpenFiles": [
+    "SW 2-2026/1er Examen (Diagramador UML).md",
+    "SW 2-2026/archivo temporal.md",
+    "Sin nombre",
     "Anexos/Pasted image 20260825214004.png",
     "Anexos/Pasted image 20260825213409.png",
     "Anexos/Pasted image 20260825213340.png",
@@ -197,7 +216,6 @@
     "Anexos/Pasted image 20260825211421.png",
     "Anexos/Pasted image 20260825210347.png",
     "IHC/appmap-v1.0.md.md",
-    "SW 2-2026/1er Examen (Diagramador UML).md",
     "SW 2-2026",
     "IHC/IHC.md",
     "IHC/flujo-v1.0.md.md",
@@ -224,7 +242,6 @@
     "cree un enlace.md",
     "Sin título.base",
     "2026-03-15.md",
-    "Anexos/mark.jpg",
     "Anexos",
     "key-ssh-colegio-saas/sebastian-ssh.pem",
     "key-ssh-colegio-saas",
