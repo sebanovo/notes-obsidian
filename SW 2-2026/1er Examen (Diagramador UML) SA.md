@@ -3,16 +3,15 @@ Desarrollo de un sw que acompañe el desarrollo colaborativo de una empresa de s
 - Ingeniería de sw asistida por computadora.
 - Permite diseñar el sw y que la implementación aparezca de ese diseño (como un prompt para la IA).
 - Permite diseñar los datos (diagrama de clases)
-- Conceptual
-- gLóico - Normalización - Mapeo (Reducir Redundancia)
-- Optimización
+- solamente diseño Conceptual y Logico 
+- La IA puede hacer Normalización - Mapeo (Reducir Redundancia) Optimización
 - Como un Enterprise Architect colaborativo
 - Que permita diagramar mediante voz y chat
 - Importar/exportar modelos/diagramas a otras herramientas al Architect (XMI)
 - Debe generar código backend completo a partir de diagrama de clases
 - SpringBoot, debe usarse postman para probar el backend generado
-- Construir una pequeña aplicación + Frontend + Mobile (para apps gestión)
-- Usar la aplicacion movil para crear el frontend y debe funcionar sin necesidad de internet IA local en el celular.
+- Construir una pequeña aplicación + Frontend Mobile (para apps gestión)
+- Usar la aplicación móvil para crear el frontend y debe funcionar sin necesidad de internet IA local en el celular.
 - `Fecha de entrega: 23/09/2026`
 
 ### Preguntas Teóricas
@@ -20,7 +19,7 @@ Desarrollo de un sw que acompañe el desarrollo colaborativo de una empresa de s
 Si duplicando el numero de personas y aumentando el precio de la estimación. Aplicar SCRUM y microservicios usando herramientas de apoyo como IA's generativas para acelerar el proceso repetitivo y las pruebas.
 ### Priorizar
 - Duplicar la gente del equipo (de todo el país)
-¿Soluciones? para los costos, durativas, alojamiento, asidia, vida persona.
+¿Soluciones? para los costos, durativas, alojamiento, asedia, vida persona.
 - Teletrabajo por microservicio usando SCRUM, donde un trabajador antiguo, se encargue de un (grupo equipo de trabajo abarcando así la supervisión de todas las areas, y requerimientos del software)
 - Reutilizar código de algún lugar
 - Trabajo remoto
@@ -43,8 +42,6 @@ Están a full o muy ocupados, se presentaron a una licitación pública, donde s
 * Estadísticas a todo tipo de nivel (toma de decisiones, administrativas, analítico y con la posibilidad de entregar información por demanda, talvez era reportes personalizados)
 * IA: Primer nivel de atención al paciente será por IA, cuando se saque la ficha la IA debe identificar si el paciente tiene que hacer consulta, especialista, o videoconferencia y ella genera la ficha (que sea llamada o con video la ai no solo formulario/texto).
 * Historia clínica con blockchain.
-
-
 
 ### Posible Semestre (2-2026)
 
