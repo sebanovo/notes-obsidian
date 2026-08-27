@@ -4,7 +4,7 @@ Desarrollo de un sw que acompañe el desarrollo colaborativo de una empresa de s
 - Permite diseñar el sw y que la implementación aparezca de ese diseño (como un prompt para la IA).
 - Permite diseñar los datos (diagrama de clases)
 - Conceptual
-- Lógico - Normalización - Mapeo (Reducir Redundancia)
+- gLóico - Normalización - Mapeo (Reducir Redundancia)
 - Optimización
 - Como un Enterprise Architect colaborativo
 - Que permita diagramar mediante voz y chat
