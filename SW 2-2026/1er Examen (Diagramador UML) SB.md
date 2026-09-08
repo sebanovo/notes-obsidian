@@ -23,8 +23,8 @@ La IA puede editar el diagrama sin tocar el MOUSE, por comando de voz y/o texto,
 
 El Backend generado debe estar mínimamente con las 4 capas de SpringBoot:
 `4 capas de SpringBoot:`
-- Modelo
-- Repositorio
-- Servicio
-- Controlador
+- Modelo (Capa de Datos @Entity)
+- Repositorio (Capa de Persistencia @Repository)
+- Servicio (Capa de Negocio @Service)
+- Controlador (Capa de presentación @RestController)
 - Capa Extra (DTO)

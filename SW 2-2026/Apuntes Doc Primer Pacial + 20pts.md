@@ -42,3 +42,4 @@ El dia de la presentación Tener desplegado el software y en local, porque?
 - Preguntar que hace una linea
 - Borrar la linea y preguntar si funcionara o no
 - En resumen estudiar el código si o si
+
