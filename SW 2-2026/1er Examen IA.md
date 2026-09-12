@@ -90,21 +90,6 @@ Desarrollo de una aplicación web de modelado UML colaborativo, similar a **Ente
 ### 7.3. Demostración
 - Video demostrativo (máx. 5 min).
 - Presentación de las innovaciones implementadas.
-
-## 8. Cronograma Tentativo
-
-| Fase                            | Fecha Límite   |
-| ------------------------------- | -------------- |
-| Definición de Requisitos        | 15/08/2026     |
-| Diseño de Arquitectura          | 30/08/2026     |
-| Desarrollo Backend Principal    | 15/09/2026     |
-| Desarrollo Frontend Web         | 20/09/2026     |
-| Integración IA y Voz            | 25/09/2026     |
-| Generación de Código SpringBoot | 30/09/2026     |
-| Desarrollo App Móvil            | 05/10/2026     |
-| Pruebas y Depuración            | 15/10/2026     |
-| Entrega Final                   | **23/10/2026** |
-
 ## 9. Consideraciones Finales
 - La herramienta debe ser autónoma y funcional en el entorno del usuario.
 - El código generado debe ser limpio, documentado y seguir buenas prácticas.

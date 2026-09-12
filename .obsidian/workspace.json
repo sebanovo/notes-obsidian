@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4d97086af1e3d35",
+            "id": "f7c38432e0770482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SW 2-2026/1er Examen IA.md",
+                "file": "SIG/APUNTES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1er Examen IA"
-            }
-          },
-          {
-            "id": "c2d36675eaa00984",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SW 2-2026/tareas/Tareas-#3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tareas-#3"
+              "title": "APUNTES"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SW 2-2026/tareas/Tareas-#3.md",
+                "file": "SIG/APUNTES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 304.699951171875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,29 +185,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2d36675eaa00984",
+  "active": "f7c38432e0770482",
   "lastOpenFiles": [
-    "SW 2-2026/tareas/Tareas-#1 y #2.md",
-    "SW 2-2026/tareas/Tareas-#3.md",
-    "SW 2-2026/Apuntes Doc Primer Pacial + 20pts.md",
+    "SIG/PLATAFORMA.md",
+    "SIG/APUNTES.md",
+    "Anexos/Pasted image 20260911225932.png",
+    "Anexos/Pasted image 20260911225925.png",
+    "Anexos/Pasted image 20260911225851.png",
+    "Anexos/Pasted image 20260911225733.png",
+    "Anexos/Pasted image 20260911225514.png",
+    "Anexos/Pasted image 20260911225413.png",
+    "Anexos/Pasted image 20260911225035.png",
+    "Anexos/Pasted image 20260911224939.png",
+    "Anexos/Pasted image 20260911224830.png",
+    "Anexos/Pasted image 20260911224730.png",
     "SW 2-2026/1er Examen (Diagramador UML) SB.md",
+    "SIG",
+    "SW 2-2026/1er Examen (Diagramador UML) SA.md",
+    "SW 2-2026/1er Examen IA.md",
+    "SW 2-2026/tareas/Tareas-#3.md",
+    "SW 2-2026/tareas/Tareas-#1 y #2.md",
+    "SW 2-2026/Apuntes Doc Primer Pacial + 20pts.md",
     "SI2 1-2026/7 Funcionalidades para todos los proyectos.md",
     "SI2 1-2026/Apuntes 9 Softwares.md",
     "SI2 1-2026/Examen I,II Auxilio Mecánico.md",
     "SI2 1-2026/Perfil Del Proyecto.md",
     "SI2 1-2026/Sistema de Finanzas.md",
     "SI2 1-2026/Sprint Especial.md",
-    "SW 2-2026/1er Examen (Diagramador UML) SA.md",
-    "SW 2-2026/1er Examen IA.md",
     "SW 2-2026/tareas",
     "IHC/Apuntes.md",
     "IHC/appmap/appmap-v0.1.md",
     "IHC/brief/brief-v0.1.md",
     "IHC/research/evidencias.md",
     "IHC/persona/persona-v0.1.md",
-    "IHC/flujo/frame3.png",
-    "IHC/flujo/frame2.png",
-    "IHC/flujo/frame1.png",
     "IHC/flujo/flujo-v0.1.md",
     "IHC/brief/briel-v0.2.md",
     "IHC/research",
@@ -235,19 +230,8 @@
     "IHC",
     "IHC/flujo-v1.0.md.md",
     "IHC/IHC.md",
-    "Sin nombre",
-    "Anexos/Pasted image 20260825214004.png",
-    "Anexos/Pasted image 20260825213409.png",
-    "Anexos/Pasted image 20260825213340.png",
-    "Anexos/Pasted image 20260825212311.png",
-    "Anexos/Pasted image 20260825212228.png",
-    "Anexos/Pasted image 20260825212218.png",
-    "Anexos/Pasted image 20260825211819.png",
     "IHC/appmap-v1.0.md.md",
     "SW 2-2026",
-    "semestre 2-2025/Segundo Parcial.md",
-    "semestre 1-2026 SI2/Documentación adicionar examen 1.md",
-    "semestre 1-2026 SI2/BASE DE DATOS FINANZAS EXPLICACIÓN.md",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]

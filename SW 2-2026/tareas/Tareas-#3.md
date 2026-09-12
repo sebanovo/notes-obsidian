@@ -7,7 +7,7 @@ R. Qué ocupan/tienen un lugar en el espacio.
 R. No siempre.
 
 3. ¿El software ocupa o no un lugar en el espacio?
-R. No. Aunque ocupe espacio en Disco, es una representación de bits que mueven electrones en el Disco. El software es algo asbtracto como todo algoritmo
+R. No. Aunque ocupe espacio en Disco, es una representación de bits que mueven electrones en el Disco. El software es algo abstracto como todo algoritmo
 
 4. ¿El software se puede percibir con los 5 sentidos?
 R. No.
