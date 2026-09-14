@@ -1054,3 +1054,348 @@ Para ejecutar el ArcMap usaremos la siguiente secuencia de menú desde Windows: 
 Ejecutando propiedad es de una capa activa del menú contextual
 
 ![[Pasted image 20260911223544.png]]
+
+# VISUALIZACION DE DATOS GEOGRAFICOS
+## OBJETIVOS
+
+Los objetivos de esta leccion son:
+
+1. Aprender el manejo de mapas
+2. Añadir capas temáticas
+3. Manejar la tabla de contenidos
+4. Extraer informacion de las capas
+
+## FORMATOS DE ALMACENAMIENTO EN ARCGIS
+
+En ArcGIS existen dos formatos para almacenar información geográfica y sus atributos: 
+
+- Shapefile, y 
+- Geodatabase
+## SHAPEFILE
+
+**_SHAPEFILE_**
+
+Un **_Shapefile_** es un formato vectorial de almacenamiento digital donde se guarda la localización de los objetos geográficos y los atributos asociados a ellos. Las entidades geográficas de un _shapefile_ se pueden representar por medio de puntos, líneas o polígonos (áreas).
+
+  
+
+Un _**SHAPEFILE**_ es generado por varios archivos. El número mínimo requerido es de tres y tienen las extensiones siguientes:  
+
+• .**shp**  es el archivo que almacena las entidades geométricas de los objetos.
+
+• .**shx**  es el archivo que almacena el índice de las entidades geométricas.
+
+• .**dbf**  es el archivo DBASE que almacena la información de los atributos de los objetos (tabla de datos)
+
+  
+
+Además de estos tres archivos requeridos, opcionalmente se pueden utilizar otros para mejorar el funcionamiento en las operaciones de consulta a la base de datos, información sobre la proyección cartográfica, o almacenamiento de metadatos. Estos archivos son:  
+
+- .**sbn** y .**sbx** - Almacena el índice espacial de las entidades  
+    
+- .**fbn** y .**fbx** - Almacena el índice espacial de las entidades para los _shapefiles_ que son inalterables (solo lectura)  
+    
+- .**ain** y .**aih** - Almacena el índice de atributo de los campos activos en una tabla o el tema de la tabla de atributos.   
+    
+- .**prj** - Es el archivo que guarda la información referida a sistema de coordenadas.  
+    
+- .**shp**.**xm****l** - Almacena los metadatos del _shapefile_.
+
+
+## GEODATABASE
+
+**GEODATABASE**
+
+•Una **_geodatabase_** de ArcGIS es una colección de datasets geográficos de varios tipos contenida en una carpeta de sistema de archivos común, una base de datos de Microsoft Access o una base de datos relacional multiusuario DBMS (por ejemplo Oracle, Microsoft SQL Server, PostgreSQL, Informix o IBM ..)
+
+•Una **_geodatabase_** es algo más que una colección de datasets; el término geodatabase tiene diversos significados en ArcGIS:
+
+•La **_geodatabase_** es la estructura de datos nativa para ArcGIS y es el formato de datos principal que se utiliza para la edición y administración de datos.
+
+•Las **_geodatabase_** Es el almacenamiento físico de la información geográfica, que principalmente utiliza un sistema de administración de bases de datos (DBMS) o un sistema de archivos. Puede acceder y trabajar con esta instancia física del conjunto de datasets a través de ArcGIS o mediante un sistema de administración de bases de datos utilizando SQL.
+
+•Las **_geodatabase_** cuentan con un modelo de información integral para representar y administrar información geográfica. Este modelo de información integral se implementa como una serie de tablas que almacenan clases de entidad, datasets ráster y atributos. Además, los objetos de datos SIG avanzados agregan comportamiento SIG, reglas para administrar la integridad espacial y herramientas para trabajar con diversas relaciones espaciales de las entidades, los rásteres y los atributos principales.
+
+•Las **_geodatabase_** poseen un modelo de transacción para administrar flujos de trabajo de datos SIG.
+
+## TIPOS DE GEODATABASE
+
+•Existen Dos Tipos de **_GEODATABASES_**:
+
+•**_multiuser geodatabases_**, están diseñadas para organizaciones medianas y grandes.
+
+•**_single-user_** geodatabases estan diseñadas para usuarios individuales.
+![[Pasted image 20260913211808.png]]
+
+
+CUALES SON LOS ARCHIVOS QUE MINIMAMENTE DEBEN EXISTIR EN EL FORMATO SHAPEFILE
+
+.SHX ✅
+.DBF ✅
+.SHP ✅
+.PRJ ❌
+
+## ADICION DE CAPAS EN ARCMAP
+
+•Para adicionar capas temáticas al mapa debemos usar el icono Add Data![[Pasted image 20260913212011.png]]
+
+## MANEJO DE TABLA DE CONTENIDOS
+
+•Para hacer visible o no una capa presionar el botón
+![[Pasted image 20260913212027.png]]
+
+## DESPLEGAR TABLA
+
+•Para desplegar la tabla de atributos de una capa presionar el botón   **_Open Atribute Table_** del menú contextual
+![[Pasted image 20260913212043.png]]
+
+# ANALISIS ALFANUMERICO DIRECTO
+## ANALISIS ALFANUMERICO INTRODUCCION
+
+El análisis alfanumérico consiste en la obtención de informacion nueva a partir de los atributos de las entidades espaciales, disponibles en las tablas de las capas. Estos análisis incluyen consultas, resumenes estadisticos, nuevos datos a partir de los ya existentes, etc. Las consultas se utilizan para extraer información de los datos geograficos, aprovechando tanto las capacidades graficas como las capacidades de las bases de datos asociadas a la información geografica que se puede integrar en un SIG.
+
+**Tipos de consultas:**
+
+-  Directa: con el botón de información o con la herramienta de selección sobre algun elemento de la parte grafica.
+- Grafica: aprovechando las cualidades topologicas de la informacion geografica y la relacion entre los puntos, líneas y poligonos de las distintas capas.
+- En base de datos: mediante sentencias de consulta en formato SQL
+
+Es importante senalar la interrelacion e interactividad que hay entre los datos espaciales y la base de datos. Todo lo que resulte seleccionado en la base de datos, queda seleccionado en los datos espaciales y viceversa. Por tanto, nos podemos servir tanto de los datos espaciales como de la base de datos para realizar nuestras consultas.
+
+Por lo general, las consultas implican una seleccion de elementos pertenecientes a una capa. En muchos SIG, una vez hecha la selección, las distintas operaciones de análisis que se realicen utilizando esta capa sólo tendrán en cuenta la selección previa.
+
+
+## CONSULTA DIRECTA
+
+Las consultas directas son el metodo mas sencillo de extraer informacion de los datos geograficos. Se usan los datos espaciales de una unica capa y es posible establecer las capas sobre las que se puede ejecutar las herramientas de selección.
+
+Se pueden realizar pidiendo información sobre alguna entidad espacial, apareciendo los datos de la base de datos asociados a esa entidad.
+## CONSULTA DIRECTA: IDENTIFY
+**Identify**:
+![[Pasted image 20260913212300.png]]
+sobre algún elemento espacial, aparecen los datos de la base de datos asociados a ese elemento.
+## CONSULTA DIRECTA: SELECT FEATURES BY
+
+También se pueden realizar con las herramientas de selección,
+![[Pasted image 20260913212317.png]]
+
+pinchando o realizando un recuadro, circulo, poligono, linea sobre los elementos espaciales. Abriendo la base de datos o la  
+
+tabla de atributos se obtiene la información de los elementos en los registros de la tabla que han quedado seleccionados.
+
+Tambien se pueden realizar con las herramientas de seleccion. Posteriormente, abriendo la base de datos se obtiene la informacion de las entidades que hemos consultado.
+
+**Select Features by:** esta herramienta le permite seleccionar uno o varios elementos a la vez de una capa. Cambiara de color indicando que esta seleccionado.
+![[Pasted image 20260913212330.png]]
+Se pueden seleccionar varios elementos a la vez, haciendo un rectángulo, circulo, polígono, linea sobre los elementos a seleccionar o presionando la tecla mayusculas y seleccionandolos uno por uno sin soltar dicha tecla. Se puede visualizar la seleccion en la tabla de atributos de la capa.
+
+El resultado de la consulta se vera como el siguiente grafico, donde los objetos geográficos seleccionado se ven con lineas de color celeste
+![[Pasted image 20260913212346.png]]
+
+## CONSULTA DIRECTA: OPEN ATTRIBUTE TABLE
+
+**OPEN ATTRIBUTE TABLE:** esta herramienta permite consultar los valores que contiene un tema en su tabla de atributos, asi como modificarlos, ordenarlos, seleccionar registros, etc.
+
+Aparece la tabla de atributos del tema seleccionado. Si uno o varios registros aparecen de diferente color es por que estan seleccionados. Cada registro o fila representa un elemento geografico del mapa (poligono, punto, linea).
+![[Pasted image 20260913212401.png]]
+![[Pasted image 20260913212405.png]]
+Se pueden observar los registros seleccionados en la tabla de la capa Bolivia y mostrados de color celeste
+
+# ANALISIS ALFANUMERICO CONSULTA A LA BASE DE DATOS
+## CONSULTA A LA BASE DE DATOS
+
+**Consultas en la base de datos**
+
+De modo general para realizar una consulta en una base de datos hay que emplear un lenguaje específico, pero los SIG suelen tener un interfaz diseñado expresamente para realizar las consultas de manera sencilla. Muchos SIG admiten y emplean el lenguaje estandar SQL (Structured Query Language) para la realización de las consultas. La notacion en este caso es la siguiente:
+```
+select * from <tabla> where <condicion>
+
+que se traduciria por “selecciona todos los registros de la tabla llamada <tabla> que cumplan la condición <condicion>”.
+
+La condicion es una expresion cuyo resultado es verdadero o falso. Las expresiones estan formadas por campos, operadores y valores:
+
+<campo> <operador> <valor>
+
+area = 50 000
+
+asi, cuando un registro presenta en el campo “area” un valor igual a 50 000 el resultado de la Expresion es verdadero y el registro resultara seleccionado.
+
+Los operadores para valores numéricos son: = ; <> ; < ; > ; <= ; >=
+
+<campo> <> <valor>
+
+Resultara verdadero cuando el valor del campo sea distinto a <valor>.
+
+Cuando se comparan cadenas de texto, los valores se ponen con comillas y los operadores son: = ; <> ; like. El operador like realiza una comparacion usando caracteres comodin. El caracter “_” representa cualquier letra o numero y el caracter “%” representa cualquier conjunto de numeros o caracteres.
+
+<campo> like 'pin_'
+
+resultara verdadero para valores como 'pino' o 'pini'
+
+<campo> like 'pin%'
+
+resultara verdadero para los valores anteriores y otros como 'pinus', 'pinea' o 'pinicola'
+
+El operador Not (no) devuelve lo contrario, si verdadero, falso; si falso, verdadero.
+
+Ademas, se pueden concatenar condiciones en una misma expresion usando operadores de conjuntos (booleanos) y parentesis para asegurar la correcta evaluacion de la condicion:
+
+And (y): el resultado es verdadero si se cumplen las dos condiciones.
+
+Or (o): el resultado es verdadero si se cumple al menos una de las dos condiciones.
+
+El orden de chequeo de las condiciones es de izquierda a derecha, los parentesis permiten modificar este orden:
+
+area = 200 or area > 50 and area < 100
+
+area = 200 or ( area > 50 and area < 100 )
+
+en la primera expresion un registro de area 200 no quedara seleccionado: V o F y F = V y F = F
+
+en la segunda si: V o ( V y F ) = V o F = V
+
+Finalmente, la palabra NULL representa un valor vacio, sin especificar:
+
+<campo> is NULL
+
+seleccionara los registros cuyo <campo> este vacio, y, al contrario:
+
+<campo> is not NULL
+```
+
+## Select By Attributes
+
+En ArcGIS se accede al interfaz desde el menu principal Selection–Select By Attributes, o tambien pinchando sobre una capa –boton derecho– Open Attribute Table–Options–Select By Attributes. En ambos casos se abre el cuadro de dialogo siguiente:
+
+![[Pasted image 20260913212735.png]]
+![[Pasted image 20260913212740.png]]
+El cuadro de dialogo pregunta:
+
+ **Layer**: Capa sobre la que se quiere realizar la consulta
+
+ **Method**: crear una seleccion, seleccionar sobre lo ya seleccionado…
+
+ Campos para realizar la seleccion, es este recuadro aparecen todos los campos de la tabla
+
+ **Get Unique values**: recuadro de la derecha donde aparecen los registros del campo seleccionado
+
+ S**elect from:** recuadro para escribir las condiciones buscadas. Para los atributos numericos las expresiones pueden incluir constantes, funciones o valores de otros campos de la tabla. Para atributos de texto las expresiones pueden incluir caracteres de texto que se escriben o de otros campos.
+
+Los operadores logicos que aparecen son los siguientes, permitiendose la combinacion de varios de ellos en una misma seleccion.
+## EJERCICIO 1
+
+REALIZAR LA SIGUIENTE CONSULTA:
+
+MOSTRAR LA INFORMACION DE LA CATEGORIA A LA QUE PERTENECE EL AREA PROTEGIDA "ISIBORO SECURE" 
+
+USAR LA CAPA TEMATICA "AREAS PROTEGIDAS",  Y LA Columna "CATEGORIA" PARA OBTENER LA INFORMACION REQUERIDA O EL RESULTADO DE LA CONSULTA, 
+
+PARA LA CONDICION USAR LA COLUMNA "NOMBRE_AP" DE LA CAPA TEMATICA "AREAS PROTEGIDAS"  ( NOMBRE_AP = "ISIBORO SECURE" )
+
+SOLUCION:  
+
+**RESPUESTA : Parque Nacional y Territorio Indigena**
+
+**VIDEO DE LA SOLUCION**
+
+## EJERCICIO 2
+
+REALIZAR LA SIGUIENTE CONSULTA
+
+SELECCIONAR LAS POBLACIONES QUE SON CAPITAL DE DEPARTAMENTO Y QUE TIENEN NUMERO DE HABITANTES MAYOR A 100000.
+
+PARA ESTA CONSULTA, USAR LA CAPA TEMATICA  "POBLACION",
+
+PARA LA CONDICION “CAPITAL DE DEPARTAMENTO” USAR LA COLUMNA "tipo_pobla"   (tipo_pobla  = “Capital De Departamento”)
+
+Y PARA LA OBTENER LA CANTIDAD DE HABITANTES USAR LA COLUMNA "poblacion_" EN LA CONDICION ( poblacion_ >= 100000)
+
+  
+
+RESPUESTA
+![[Pasted image 20260913212814.png]]
+VIDEO SOLUCION DEL EJERCICIO
+
+## CONSULTA ESPACIAL (LOCATION)
+
+Las consultas espaciales son metodos de selección por atributos y características de la información geográfica basados en criterios espaciales, como ser: intersecciones, cruces, pertenencia, contenidas y otros.
+
+En este tipo de consultas se van a usar las características espaciales de una capa, para seleccionar los elementos geográficos de otra capa que cumplen unas condiciones.
+
+Este tipo de consultas en ArcGIS se llaman _Select By Location_ dentro del menú _Selection_.
+![[Pasted image 20260913212957.png]]
+
+Descripción de las opciones:
+
+**_Selection Method_**: Tiene las siguientes opciones:
+
+- **_Select Features From:_** Selecciona Objetos geográficos de
+- **_Add to the currently selected featutre in_**: Adiciona objetos a los actuales objetos seleccionados en.
+- **_Remove from the currently selected featutre in_**: Remover objetos de los actuales objetos seleccionados en.
+- **_Select from the currently selected featutre in_**: Selecciona objetos de los actuales objetos seleccionados en.
+
+**_Spatial selection Method:_** Tiene las siguientes opciones:
+
+- **_Intersect_**: selecciona los elementos que son interceptados por lo seleccionado.
+- **_Are within a distance of_**: selecciona los elementos que están a una distancia menor de lo que esta seleccionado.
+- **_Completely contain_**: selecciona polígonos que contienen completamente las entidades señaladas.
+
+- - **_Are completely within_**: selecciona los elementos que estan completamente dentro  de un poligono 
+    - **_Have their center in_**: selecciona elementos que tienen su centro o centroide dentro de las entidades senaladas.
+    - **_Share a line segment_**: selecciona lineas y poligonos (no vale para puntos) que comparten segmentos con los seleccionados.
+    - **_Touch the boundary of_**: selecciona lineas y poligonos (no vale para puntos) que tocan los limites de los elementos seleccionados (no cruzan).
+    - **_Are identical to_**: selecciona los elementos identicos a los que estan seleccionados.
+    - **_Are crossed by the outline of_**: (≈ intersect) selecciona elementos que tocan el limite de lo seleccionado (no para puntos). Se diferencia de intersect que por ejemplo no selecciona líneas dentro de un poligono que no toquen el límite, intersect si lo hace.
+    - **_Contain_**: (≈ completely contain) selecciona elementos (continente) que contienen todo o parte de las entidades senaladas (diferencia con completely contain). Incluye tambien a los que tocan el borde.
+    - **_Are contained by_**: (≈ are completely within) selecciona los elementos que estan dentro, todo o en parte, (contenido) de un poligono (continente). (Diferencia con are completely within). Incluye tambien a los que tocan el borde.
+## EJERCICIO 1 DE CONSULTA ESPACIAL
+
+Calcular cuantas Poblaciones existen dentro del Area protegida “Isiboro secure”
+
+Usar los siguientes Shapes:
+
+1. Bolivia
+2. Areas Protegidas
+3. Poblaciones
+
+SOLUCION:  121 Poblaciones
+
+**VIDEO DE LA SOLUCION DEL EJERCICIO**
+## EJERCICIO 2 DE CONSULTA ESPACIAL
+
+Calcular cuantas Poblaciones existen dentro del Area protegida “Isiboro secure” 
+
+y a la vez deben estar ubicados en el departamento de Cochabamba
+
+Usar los siguientes Shapes:
+
+1. Bolivia
+2. Areas Protegidas
+3. Poblaciones
+
+**SOLUCION:  89 Poblaciones**
+
+**VIDEO DE LA SOLUCION DEL EJERCICIO**
+
+## EJERCICO 3 CONSULTA ESPACIAL
+
+Indicar que poblaciones se encuentran a 100 metros del rio “RIO PIRAY”, para esta consulta usar la columna NMA  para identificar el nombre del rio  
+
+Usar los siguientes Shapes:
+
+Shapes:
+
+1. Bolivia
+    
+2. Rios Principales
+    
+3. Poblaciones
+    
+
+**SOLUCION:**
+
+**1.       SINDICATO AGRARIO ILLIMANI A**
+
+**2.       COMUNIDAD AGUA HEDIONDA**
+
+**VIDEO DE LA SOLUCION DEL EJERCICIO**
