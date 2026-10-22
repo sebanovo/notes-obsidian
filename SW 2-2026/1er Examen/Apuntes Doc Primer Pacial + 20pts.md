@@ -33,12 +33,12 @@ Alguien sugiere:
 pero la mejor manera es: agente/asistente para aprender a usar la IA. Implementarla en codigo
 
 # 3er Paso
-Asegurar que el Doc y el software fueron hechos a la vez y no usando ingenieria inversa del software a Doc. El ingeniero se va a fijar en los diagramas y tienen que estar los más importantes y correctos.
+Asegurar que el Doc y el software fueron hechos a la vez y no usando ingeniería inversa del software a Doc. El ingeniero se va a fijar en los diagramas y tienen que estar los más importantes y correctos.
 
 # 4to Paso
 Demostrar que somos los autores del software
-El dia de la presentación Tener desplegado el software y en local, porque?
-- Puede borrar codigo
+El día de la presentación Tener desplegado el software y en local, porque?
+- Puede borrar código
 - Preguntar que hace una linea
 - Borrar la linea y preguntar si funcionara o no
 - En resumen estudiar el código si o si

@@ -56,6 +56,7 @@ Encontrar 7 estrategias de desarrollo de software y de cada una hacer lo siguien
 > Cascada, Espiral, SCRUM, etc...
 
 ## Responder las siguientes preguntas
+Estas preguntas ya están correctamente respondidas en: [[2. Preguntas Analisís]]
 1. ¿Cuál es el objetivo del Análisis?
 2. Qué se genera como resultado o entregable del análisis?
 3. ¿Cuáles son las actividades que ocurren durante el análisis?
