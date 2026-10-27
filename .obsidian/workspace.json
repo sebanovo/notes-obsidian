@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SW 2-2026/apuntes/3. Preguntas Diseño.md",
+                "file": "SW 2-2026/tareas/Tareas-#4 y #5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Preguntas Diseño"
+              "title": "Tareas-#4 y #5"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SW 2-2026/apuntes/3. Preguntas Diseño.md",
+                "file": "SW 2-2026/tareas/Tareas-#4 y #5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,20 +187,24 @@
   },
   "active": "93377f58d9e2097e",
   "lastOpenFiles": [
+    "SW 2-2026/tareas/Tareas-#3.md",
+    "SW 2-2026/tareas/Tareas-#4 y #5.md",
+    "SW 2-2026/apuntes/6. Caja Blanca vs Caja Negra.md",
+    "2.5 Niveles de arquitectura.md",
+    "SW 2-2026/tareas/Tareas-#1 y #2.md",
+    "SW 2-2026/apuntes/1. Métricas del Software.md",
     "SW 2-2026/apuntes/2. Preguntas Analisís.md",
     "SW 2-2026/apuntes/3. Preguntas Diseño.md",
-    "SW 2-2026/tareas/Tareas-#6.md",
-    "SW 2-2026/apuntes/1. Métricas del Software.md",
-    "SW 2-2026/2do Examen/2do Examen (Diagramador UML parte 2) SB.md",
+    "SW 2-2026/apuntes/4. Marco de trabajo genérico del software (MTGPS) Parte I.md",
+    "SW 2-2026/apuntes/5. Marco de trabajo genérico del software (MTGPS) Parte II.md",
+    "Sin título.canvas",
+    "SIG/Apuntes Proyecto.md",
     "SW 2-2026/2do Examen/2do Examen (Diagramador UML parte 2) SA.md",
+    "SW 2-2026/2do Examen/2do Examen (Diagramador UML parte 2) SB.md",
     "SW 2-2026/1er Examen/Apuntes Doc Primer Pacial + 20pts.md",
     "SW 2-2026/1er Examen/1er Examen IA.md",
-    "Sin título.canvas",
     "SW 2-2026/1er Examen/1er Examen (Diagramador UML) SB.md",
     "SW 2-2026/1er Examen/1er Examen (Diagramador UML) SA.md",
-    "SW 2-2026/tareas/Tareas-#4 y #5.md",
-    "SW 2-2026/tareas/Tareas-#3.md",
-    "SW 2-2026/tareas/Tareas-#1 y #2.md",
     "SW 2-2026/2do Examen",
     "SW 2-2026/1er Examen",
     "SW 2-2026/apuntes",
@@ -213,7 +217,6 @@
     "SI2 1-2026/Examen I,II Auxilio Mecánico.md",
     "SI2 1-2026/Perfil Del Proyecto.md",
     "SIG/APUNTES.md",
-    "SIG/PLATAFORMA.md",
     "Anexos/Pasted image 20260913212957.png",
     "Anexos/Pasted image 20260913212814.png",
     "Anexos/Pasted image 20260913212740.png",
@@ -225,8 +228,6 @@
     "Anexos/Pasted image 20260913212317.png",
     "Anexos/Pasted image 20260913212300.png",
     "SIG",
-    "SI2 1-2026/Sistema de Finanzas.md",
-    "SI2 1-2026/Sprint Especial.md",
     "SW 2-2026/tareas",
     "IHC/research",
     "IHC/persona",

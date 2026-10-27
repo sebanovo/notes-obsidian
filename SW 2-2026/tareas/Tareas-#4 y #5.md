@@ -66,18 +66,18 @@
 ### 2.4. Ejemplos de métodos de desarrollo de software (5 o 6)
 
 - **Req. de datos:** Ishikawa
-- **Diseño:** etc.
-- **Análisis:** etc.
+- **Análisis:** 5 flujos de trabajo, captura de requisitos, 1. actores y casos de uso 2. priorizar casos de uso, 3. detalle de casos de uso etc..
+- **Diseño:** Diseño de datos, `diseño de arquitectura` (4 niveles abajo),diseño de lógica, diseño de interfaz.
 - **Implementación:** etc.
 - **Prueba:** etc.
 
 ### 2.5. Niveles de arquitectura
-
-- Presentación
-- Nivel de lógica o negocio
-- 
-- 
-- Despliegue
+Ver video minuto 42:30
+4 niveles de arquitecturas del software
+- Arq. de la Presentación
+- Arq. del negocio
+- Arq. de los datos
+- Arq. del Despliegue
 
 ### 2.6. Herramientas
 
