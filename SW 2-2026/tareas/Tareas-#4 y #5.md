@@ -51,7 +51,8 @@
 4. Herramientas
 
 > Existen 33 factores de calidad, pero solo usamos 7 en este curso.  
-> PUDS es Metodología; SCRUM es Framework.
+> `PUDS` es Metodología
+> `SCRUM` es Framework.
 
 ### 2.3. Estrategias de desarrollo de software (5 o 6)
 
