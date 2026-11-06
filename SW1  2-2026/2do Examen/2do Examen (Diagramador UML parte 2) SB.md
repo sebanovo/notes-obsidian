@@ -24,12 +24,12 @@ integrantes:
 > Examen1 -> ciclo1/sprint1  
 > Examen2 -> ciclo2/sprint2  
   
-2. Documento Organizado en:  
-3. Fundamentación Teórica (de la aplicación) colocar cosas del proyecto de dicho examen  
-4. CASE  
-5. Desarrollo de software basado en componentes  
-6. Arquitectura de software: Especificar 4 tipos de arquitectura que se tiene que ver reflejado en su proyecto. Arquitectura a nivel de: Backend, Frontend, nivel de datos, y en el despliegue, y ser expertos en arquitectura.  
-7. IA local  
+Documento Organizado en:  
+1. Fundamentación Teórica (de la aplicación) colocar cosas del proyecto de dicho examen  
+2. CASE  
+3. Desarrollo de software basado en componentes  
+4. Arquitectura de software: Especificar 4 tipos de arquitectura que se tiene que ver reflejado en su proyecto. Arquitectura a nivel de: Backend, Frontend, nivel de datos, y en el despliegue, y ser expertos en arquitectura.  
+5. IA local  
 - Entrenar  
 - Configurar  
 - Comparar modelos  
