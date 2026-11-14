@@ -65,3 +65,12 @@ El ingeniero podría revisar:
   
 # Final  
 Si pasamos los 4 pasos tendremos un "51" metafóricamente hablando xD
+
+
+
+# PREGUNTAS DEL EXAMEN
+1. La aplicación permite demostrar que es un producto 100% terminado de forma completa y correcta?
+2. La aplicación cumple con un 100% con la notación UML2.5+ para un diagrama de clase
+3. La aplicación permite a la IA local actuar como un desarrollador que trabaja de manera colaborativa de manera simultanea atendiendo a varios desarrolladores
+4. La documentación publicada en la plataforma está completa correcta en un 100% de acuerdo a la metodología de PUDS. y UML 2.5+?r
+5. La herramienta permite tomar foto a un diagrama de clase para su edición mediante IA. permitiendo exportar e importar a Enterprise Architect?

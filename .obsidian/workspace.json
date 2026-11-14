@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SW1  2-2026/apuntes/9. Estimaciones.md",
+                "file": "SW1  2-2026/apuntes/10. GPS Gestor de procesos de software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Estimaciones"
+              "title": "10. GPS Gestor de procesos de software"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.70001220703125
+    "width": 335.8999938964844
   },
   "right": {
     "id": "554fd62f14428ec5",
@@ -188,34 +188,37 @@
   },
   "active": "f81606b01721beb4",
   "lastOpenFiles": [
-    "SW1  2-2026/2do Examen/2do Examen (Diagramador UML parte 2) SA.md",
+    "Anexos/Pasted image 20261114113342.png",
+    "Anexos/Pasted image 20261114113228.png",
+    "Anexos/Pasted image 20261114113208.png",
+    "Anexos/Pasted image 20261114113018.png",
+    "SW1  2-2026/apuntes/8. Gestion de proyecto de software.md",
+    "SW1  2-2026/apuntes/8. Gestion de proyecto de software (AUDIO).md",
+    "SW1  2-2026/apuntes/10. GPS Gestor de procesos de software.md",
+    "SW1  2-2026/apuntes/9. Estimaciones.md",
+    "SW1  2-2026/apuntes/7. Factores de Calidad.md",
+    "SI2 1-2026/Presentación Proyecto.md",
+    "SI2 1-2026/Sprint Especial.md",
+    "SI2 1-2026/Sistema de Finanzas.md",
+    "SI2 1-2026/Perfil Del Proyecto.md",
+    "SI2 1-2026/Examen I,II Auxilio Mecánico.md",
+    "SI2 1-2026/Apuntes 9 Softwares.md",
+    "SI2 1-2026/7 Funcionalidades para todos los proyectos.md",
     "SW1  2-2026/2do Examen/2do Examen (Diagramador UML parte 2) SB.md",
+    "SW1  2-2026/2do Examen/2do Examen (Diagramador UML parte 2) SA.md",
     "SW1  2-2026/1er Examen/Apuntes Doc Primer Pacial + 20pts.md",
     "SW1  2-2026/1er Examen/1er Examen IA.md",
     "SW1  2-2026/1er Examen/1er Examen (Diagramador UML) SB.md",
     "SW1  2-2026/1er Examen/1er Examen (Diagramador UML) SA.md",
-    "SI2 1-2026/7 Funcionalidades para todos los proyectos.md",
-    "SI2 1-2026/Apuntes 9 Softwares.md",
-    "SI2 1-2026/Examen I,II Auxilio Mecánico.md",
-    "SI2 1-2026/Perfil Del Proyecto.md",
-    "SI2 1-2026/Sistema de Finanzas.md",
-    "SI2 1-2026/Sprint Especial.md",
-    "SW1  2-2026/apuntes/9. Estimaciones.md",
     "IHC/Preguntas para Mesa.md",
     "Sin título.md",
     "SW1  2-2026/tareas/Tareas-#3.md",
-    "SW1  2-2026/apuntes/8. Gestion de proyecto de software (AUDIO).md",
-    "SW1  2-2026/apuntes/8. Gestion de proyecto de software.md",
     "SIG/EXAMENES/APUNTES.md",
     "SIG/PROYECTO FINAL/Apuntes Proyecto.md",
     "SIG/PROYECTO FINAL/APUNTES PROYECTO FINAL.md",
     "SIG/PLATAFORMA.md",
     "SIG/PROYECTO FINAL",
     "SIG/EXAMENES",
-    "SW1  2-2026/apuntes/3. Preguntas Diseño.md",
-    "SW1  2-2026/tareas/Tareas-#1 y #2.md",
-    "SW1  2-2026/apuntes/7. Factores de Calidad.md",
-    "SW1  2-2026/tareas/Tareas-#4 y #5.md",
     "Sin título.canvas",
     "Anexos/Pasted image 20261027174012.png",
     "Anexos/Pasted image 20261027173809.jpg",
@@ -227,9 +230,6 @@
     "Anexos/Pasted image 20260913212740.png",
     "Anexos/Pasted image 20260913212735.png",
     "Anexos/Pasted image 20260913212405.png",
-    "Anexos/Pasted image 20260913212401.png",
-    "Anexos/Pasted image 20260913212346.png",
-    "Anexos/Pasted image 20260913212330.png",
     "SIG",
     "SW1  2-2026/tareas",
     "IHC/research",
